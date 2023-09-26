@@ -1,5 +1,5 @@
 async function main() {
-    const { XMLTubeInfoFetcher } = require('./function');
+    const { XMLTubeInfoFetcher } = require('./XMLTubeInfoFetcher');
 
     const response = await XMLTubeInfoFetcher('UCvYc3G3GiO0SUtLLZxDQHow');
     
