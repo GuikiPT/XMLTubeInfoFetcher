@@ -47,15 +47,13 @@ module.exports = {
                 };
 
                 const reply = {
-                    data: {
-                        author: {
-                            name: data.author.name,
-                            url: data.author.uri,
-                            id: data.author.uri.replace('https://www.youtube.com/channel/', ''),
-                            created_at: new Date(data.published).getTime() / 1000
-                        },
-                        videos: parsed_videos,
-                    }
+                    author: {
+                        name: data.author.name,
+                        url: data.author.uri,
+                        id: data.author.uri.replace('https://www.youtube.com/channel/', ''),
+                        created_at: new Date(data.published).getTime() / 1000
+                    },
+                    videos: parsed_videos,
                 }
                 return reply;
             }
