@@ -19,7 +19,7 @@ XMLTubeInfoFetch is a lightweight Node.js app/function designed to effortlessly 
 Some of you may be asking why this simple project is using an inappropriate YouTube API.
 
 YouTube's current API sucks for me in these ways:
-* First, the API need a `API Key`.
+* First, the Youtube Oficial API need a `API Key`.
 * Secound, there's a lot of [`Limits`](https://developers.google.com/youtube/v3/guides/quota_and_compliance_audits) to make requests to their API.
 * Third, `Rate Limits` are ***Crazy***.
 * Fourth, I need a `very basic API Wrapper`, just for `fetch basic information`, I already tryed the oficial wrappers on, but it's very stressful having to create an API Key for such a small project.
