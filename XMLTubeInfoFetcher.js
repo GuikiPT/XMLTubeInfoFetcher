@@ -47,10 +47,6 @@ module.exports = {
                 };
 
                 const reply = {
-                    request: {
-                        status: response.status,
-                        message: 'ok'
-                    },
                     data: {
                         author: {
                             name: data.author.name,
