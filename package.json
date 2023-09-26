@@ -1,7 +1,7 @@
 {
   "name": "xmltubeinfofetcher",
   "version": "1.0.0",
-  "description": "XMLTubeFetch is a lightweight Node.js app/function designed to effortlessly retrieve basic video and channel details from the legacy XML-based YouTube API, simplifying data access and integration.",
+  "description": "XMLTubeInfoFetch is a lightweight Node.js app/function designed to effortlessly retrieve basic video and channel details from the legacy XML-based YouTube API, simplifying data access and integration.",
   "main": "main.js",
   "scripts": {
     "start": "node main.js"
