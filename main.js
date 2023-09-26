@@ -1,6 +1,7 @@
 const channel_id = '';
 
 async function main() {
+    const util = require('util');
     const { XMLTubeInfoFetcher } = require('./XMLTubeInfoFetcher');
 
     const response = await XMLTubeInfoFetcher(channel_id);
@@ -11,7 +12,7 @@ async function main() {
         );
     }
     else {
-        console.log(response);
+        console.log(util.inspect(response, {showHidden: false, depth: null, colors: true}));
     }
 }
 
